@@ -8,6 +8,6 @@ resource "aws_instance" "myec" {
     ami = "ami-06b21ccaeff8cd686"
     instance_type = "t2.micro"
     count = 3
-    tags = {
-      Name = "Bastion-${count.index}"
-}
+#    tags = {
+#     Name = "Bastion-${count.index}"
+#}
