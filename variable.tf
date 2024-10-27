@@ -1,4 +1,11 @@
-variable "Key" {
-  access = "AKIAWL5MVQJUYSG5MKAD"
-  value = "ne5iR5yuPjgQX3pEiwwHUV3EwPe6e0U4dLZ0iCVy"
+variable "access_key" {
+  description = "Database administrator access key"
+  type        = string
+  sensitive   = true
+}
+
+variable "secret_val"ue {
+  description = "Database administrator secret value"
+  type        = string
+  sensitive   = true
 }
