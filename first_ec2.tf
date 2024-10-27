@@ -10,4 +10,4 @@ resource "aws_instance" "myec" {
     count = 3
 #    tags = {
 #     Name = "Bastion-${count.index}"
-#}
+}
