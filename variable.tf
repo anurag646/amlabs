@@ -4,7 +4,7 @@ variable "access_key" {
   sensitive   = true
 }
 
-variable "secret_value {
+variable "secret_value" {
   description = "Database administrator secret value"
   type        = string
   sensitive   = true
