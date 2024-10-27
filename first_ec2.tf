@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = "ne5iR5yuPjgQX3pEiwwHUV3EwPe6e0U4dLZ0iCVy"
 }
 
-resource "aws_instance" "myec2" {
+resource "aws_instance" "myec222" {
     ami = "ami-06b21ccaeff8cd686"
     instance_type = "t2.micro"
 }
