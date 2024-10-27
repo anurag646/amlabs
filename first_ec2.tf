@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = var.key.access_key
-  secret_key = var.key.secret_key
+  access_key = var.key.access
+  secret_key = var.key.value
 }
 
 resource "aws_instance" "myec" {
