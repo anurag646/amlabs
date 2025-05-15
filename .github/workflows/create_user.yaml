@@ -25,7 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      - name: Configure AWS credentials
+#      - name: Configure AWS credentials
 #        uses: aws-actions/configure-aws-credentials@v1
 #        with:
 #          aws-access-key-id: '${{ secrets.Access_key_ID }}'
