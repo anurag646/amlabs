@@ -26,10 +26,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: '${{ secrets.Access_key_ID }}'
-          aws-secret-access-key: '${{ secrets.Secret_access_key }}'
+#        uses: aws-actions/configure-aws-credentials@v1
+#        with:
+#          aws-access-key-id: '${{ secrets.Access_key_ID }}'
+#          aws-secret-access-key: '${{ secrets.Secret_access_key }}'
       - name: Terraform Apply
         id:   apply
         run: |
