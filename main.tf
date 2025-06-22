@@ -37,10 +37,10 @@ resource "aws_s3_bucket_versioning" "versioning_example" {
   }
 }
 
-resource "aws_kms_key" "mykey" {
-  description             = "This key is used to encrypt bucket objects"
-  enable_key_rotation     = true
-  deletion_window_in_days = 7
+#resource "aws_kms_key" "mykey" {
+#  description             = "This key is used to encrypt bucket objects"
+#  enable_key_rotation     = true
+#  deletion_window_in_days = 7
 }
 
 resource "aws_s3_bucket_server_side_encryption_configuration" "example" {
