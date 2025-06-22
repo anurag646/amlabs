@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_iam_user" "user" {
-  name = var.xname
+  name = var.name
 }
 
 resource "aws_iam_user_policy_attachment" "attach-user" {
